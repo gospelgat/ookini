@@ -1,0 +1,114 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1,
+h2 {
+    color: #07166b;
+}
+
+h1 {
+    font-size: 2.5rem;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #bdc5f1;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: left;
+    border-bottom: 1px solid #4b11e9;
+}
+
+header h1,
+h2,
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem 2rem;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:block;
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+main {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.metodo-titulo {
+    color: #058181;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.precio {
+    color: #058181;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+#contador-tazas {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5B9B8E;
+}
+
+#boton-reservar {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.5rem 1.25rem;
+    background-color: #5B9B8E;
+    color: #F2F0EA;
+    border: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #bdc5f1;
+    color: #352525;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-top: 1px solid #4b11e9;
+}
+
+#contacto p {
+    margin: 0.5rem 0;
+}
+
+#contacto img {
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+}
